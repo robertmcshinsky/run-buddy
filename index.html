@@ -2,16 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Run Buddy</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <!-- Navigation -->
 
+  <body>
+    <!-- navigation -->
     <header>
       <h1>
-        <a href="/">RUN BUDDY</a>
+        <a href="/"> RUN BUDDY </a>
       </h1>
       <nav>
         <!-- Unordered list element -->
@@ -34,37 +33,36 @@
       </nav>
     </header>
 
-    <!-- Hero/Jumbotron -->
+    <!-- hero/jumbotron -->
     <section class="hero">
       <div class="hero-form">
         <h3>Get Started Today</h3>
         <p>
           Fill out this form and one of our trainers will schedule a consult
         </p>
-        <!-- Add form element -->
         <form>
           <label for="name">Enter full name:</label>
           <input
             type="text"
+            placeholder="Your Name"
             name="name"
             id="name"
-            placeholder="Your Name"
             class="form-input"
           />
           <label for="email">Enter email address:</label>
           <input
-            type="email"
+            type="text"
+            placeholder="Email Address"
             name="email"
             id="email"
-            placeholder="Email Address"
             class="form-input"
           />
           <label for="phone">Enter a telephone number:</label>
           <input
-            type="tel"
+            type="text"
+            placeholder="Phone Number"
             name="phone"
             id="phone"
-            placeholder="Phone Number"
             class="form-input"
           />
           <p>
@@ -75,12 +73,12 @@
             <label for="trainer-no">No</label>
           </p>
           <p>
-            <label for="age"
-              >I acknowledge that I am at least 18 years of age
+            <label for="checkbox">
+              I acknowledge that I am at least 18 years of age.
             </label>
-            <input type="checkbox" name="age-consent" id="age-consent-check" />
+            <input type="checkbox" name="checkpoint1" id="checkbox" />
           </p>
-          <button type="submit" name="submit" id="submit">Get Running</button>
+          <button type="submit">Get running!</button>
         </form>
       </div>
     </section>
@@ -104,25 +102,19 @@
 
       <div>
         <img src="01-04-svgs\step-1.svg" alt="" />
-        <h3>
-          <span> Step 1: Fill Out the Form Above. </span>
-        </h3>
+        <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
         <p>You're already here, so why not?</p>
       </div>
 
       <div>
         <img src="01-04-svgs\step-2.svg" alt="" />
-        <h3>
-          <span>Step 2: Consult with One of Our Trainers.</span>
-        </h3>
+        <h3>Step 2: <span>Consult with One of Our Trainers.</span></h3>
         <p>Are you here to build muscle, lose weight, or just feel good?</p>
       </div>
 
       <div>
         <img src="01-04-svgs\step-3.svg" alt="" />
-        <h3>
-          <span>Step 3: Get Running.</span>
-        </h3>
+        <h3>Step 3: <span>Get Running.</span></h3>
         <p>
           Hit the ground running (literally) once your trainer lays out your
           plan.
@@ -131,17 +123,17 @@
 
       <div>
         <img src="01-04-svgs\step-4.svg" alt="" />
-        <h3>Step 4: See Results.</h3>
+        <h3>Step 4: <span>See Results.</span></h3>
         <p>Bi-weekly checkins with your trainer will keep you focused</p>
       </div>
     </section>
 
+    <!-- "meet the trainers" section -->
     <section id="your-trainers" class="trainers">
-      <h2 class="section-title primary-border">Meet the Trainers</h2>
-
+      <h2 class="section-title primary-border">Meet The Trainers</h2>
       <article class="trainer">
         <img
-          src="images\trainer-1.jpg"
+          src="images/trainer-1.jpg"
           alt="Arron Stephens in his workout clothes, ready to pump iron"
         />
         <div class="trainer-bio text-left">
@@ -156,12 +148,8 @@
         </div>
       </article>
 
+      <!-- second trainer bio -->
       <article class="trainer">
-        <img
-          src="images\trainer-2.jpg"
-          alt="Arron Stephens in his workout clothes, ready to pump iron"
-          style="float: right"
-        />
         <div class="trainer-bio text-right">
           <h3>Joanna Gill</h3>
           <h4>Endurance</h4>
@@ -172,15 +160,20 @@
             suscipit amet quis repellat!
           </p>
         </div>
+        <img
+          src="images/trainer-2.jpg"
+          alt="Joanna Gill cooling off after a workout"
+        />
       </article>
 
+      <!-- third trainer bio -->
       <article class="trainer">
         <img
-          src="images\trainer-3.jpg"
-          alt="Arron Stephens in his workout clothes, ready to pump iron"
+          src="images/trainer-3.jpg"
+          alt="Harry Smith wearing a headband and lifting comically small pink weights"
         />
         <div class="trainer-bio text-left">
-          <h3>Harry "The Headbad" Smith</h3>
+          <h3>Harry "the Headband" Smith</h3>
           <h4>Strength</h4>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
@@ -193,35 +186,35 @@
     </section>
 
     <!-- "reach out" section -->
-    <section>
-      <h2>Reach Out</h2>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.0085753597846!2d-117.92116824861992!3d33.812091780577006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcd7d12b3b5e6b%3A0x2ef62f8418225cfa!2sDisneyland%20Park!5e0!3m2!1sen!2sus!4v1611082703417!5m2!1sen!2sus"
-        width="400"
-        height="400"
-        frameborder="0"
-        style="border: 0"
-        allowfullscreen=""
-        aria-hidden="false"
-        tabindex="0"
-      ></iframe>
-      <div>
-        <h3>Run Buddy</h3>
-        <p>
-          Any questions or concerns before signing up?
-          <br />
-          Let us know and we'll be happy to talk to you!
-        </p>
+    <section id="reach-out" class="contact">
+      <h2 class="section-title secondary-border">Reach Out</h2>
+      <div class="contact-info">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12182.30520634488!2d-74.0652613!3d40.2407219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1561060983193!5m2!1sen!2sus"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen
+        >
+        </iframe>
+        <div>
+          <h3>Run Buddy</h3>
+          <p>
+            Any questions or concerns before signing up?
+            <br />
+            Let us know and we'll be happy to talk to you!
+          </p>
+          <address>
+            55 Main Street <br />
+            Some Town, Ca <br />
+            12345<br />
+            P: 555.RUN.BUDZ (555.786.2839)<br />
+            E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+          </address>
+        </div>
       </div>
-      <address>
-        1313 Disneyland Dr <br />
-        Anaheim, CA <br />
-        92802 <br />
-        P: 555.RUN.BUDZ (555.786.2839) <br />
-        E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
-      </address>
     </section>
 
+    <!-- footer -->
     <footer>
       <h2>❤️ Made with love by Run Buddy.</h2>
       <div>
